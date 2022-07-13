@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.35.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Victor Minguela, CSU Long Beach, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.35.0.2
+Toolchain Path:  D:\Keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.35.0.2
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\Keil5\CECS447_LABS\FinalProject\CC3100GetWeather_4C123\getWeather.uvprojx
+Project File Date:  04/28/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil5\ARM\ARMCC\Bin'
+Build target 'getWeather'
+compiling main.c...
+animations.h(8): warning:  #1-D: last line of file ends without a newline
+  	
+main.c(400): warning:  #223-D: function "sprintf" declared implicitly
+  		sprintf(REQUEST, "GET /data/2.5/weather?q=%s&APPID=d402827f2b2f6580e89c2776ad480b0e&units=imperial HTTP/1.1\r\nUser-Agent: Keil\r\nHost:api.openweathermap.org\r\nAccept: */*\r\n\r\n", city);
+main.c(406): warning:  #223-D: function "sprintf" declared implicitly
+  		sprintf(REQUEST, "GET /data/2.5/weather?id=%s&APPID=d402827f2b2f6580e89c2776ad480b0e&units=imperial HTTP/1.1\r\nUser-Agent: Keil\r\nHost:api.openweathermap.org\r\nAccept: */*\r\n\r\n", cityID);
+main.c(415): warning:  #223-D: function "sprintf" declared implicitly
+  		sprintf(REQUEST, "GET /data/2.5/weather?lat=%s&lon=%s&APPID=d402827f2b2f6580e89c2776ad480b0e&units=imperial HTTP/1.1\r\nUser-Agent: Keil\r\nHost:api.openweathermap.org\r\nAccept: */*\r\n\r\n", lat, lon);
+main.c(424): warning:  #223-D: function "sprintf" declared implicitly
+  		sprintf(REQUEST, "GET /data/2.5/weather?zip=%s,%s&APPID=d402827f2b2f6580e89c2776ad480b0e&units=imperial HTTP/1.1\r\nUser-Agent: Keil\r\nHost:api.openweathermap.org\r\nAccept: */*\r\n\r\n", zip, country);
+main.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=17828 RO-data=4236 RW-data=100 ZI-data=20620  
+After Build - User command #1: fromelf --bin --output .\rvmdk\cc31000_starter.bin .\rvmdk\cc31000_starter.axf
+".\rvmdk\getWeather.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_getWeather
+  D:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  D:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>

@@ -1,0 +1,337 @@
+Dependencies for Project 'getWeather', Target 'getWeather': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\cc3100\platform\ek-tm4c123gxl\board.c)(0x554C5276)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\ -I ..\..\..\.. -I ..\cc3100 -I ..\cc3100\platform\ek-tm4c123gxl -I ..\cc3100\simplelink\include -I ..\cc3100\simplelink\source --c99-I.\RTE\_getWeather-ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="535" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -D_POSIX_SOURCE -DUART_BUFFERED -DTARGET_IS_TM4C123_RB1-o .\rvmdk\board.o --omf_browse .\rvmdk\board.crf --depend .\rvmdk\board.d)
+I (..\cc3100\simplelink\include\simplelink.h)(0x53A3111E)
+I (..\cc3100\platform\ek-tm4c123gxl\user.h)(0x53A3111E)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x6025F66E)
+I (..\cc3100\platform\ek-tm4c123gxl\board.h)(0x54F3DE90)
+I (..\cc3100\platform\ek-tm4c123gxl\spi.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/nonos.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/objInclusion.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/datatypes.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\trace.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\fs.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\socket.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\netapp.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\device.h)(0x54F3DE90)
+I (..\cc3100\simplelink\include\netcfg.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan_rx_filters.h)(0x53A3111E)
+I (..\cc3100\../inc/tm4c123gh6pm.h)(0x5388D0EA)
+I (..\inc/hw_memmap.h)(0x5388D0E8)
+I (..\inc/hw_ssi.h)(0x5388D0E8)
+I (..\inc/hw_types.h)(0x5388D0E8)
+I (..\driverlib/ssi.h)(0x5388DEBA)
+I (..\driverlib/rom.h)(0x5388DEBA)
+I (..\driverlib/gpio.h)(0x5388DEBA)
+I (..\driverlib/sysctl.h)(0x5388DEBA)
+I (..\driverlib/fpu.h)(0x5388DEBA)
+I (..\driverlib/uart.h)(0x5388DEBA)
+F (.\Nokia5110.c)(0x6269780A)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\ -I ..\..\..\.. -I ..\cc3100 -I ..\cc3100\platform\ek-tm4c123gxl -I ..\cc3100\simplelink\include -I ..\cc3100\simplelink\source --c99-I.\RTE\_getWeather-ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="535" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -D_POSIX_SOURCE -DUART_BUFFERED -DTARGET_IS_TM4C123_RB1-o .\rvmdk\nokia5110.o --omf_browse .\rvmdk\nokia5110.crf --depend .\rvmdk\nokia5110.d)
+I (Nokia5110.h)(0x607CB61B)
+I (../inc/tm4c123gh6pm.h)(0x5388D0EA)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x62697C68)
+F (.\LED.c)(0x626AD588)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\ -I ..\..\..\.. -I ..\cc3100 -I ..\cc3100\platform\ek-tm4c123gxl -I ..\cc3100\simplelink\include -I ..\cc3100\simplelink\source --c99-I.\RTE\_getWeather-ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="535" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -D_POSIX_SOURCE -DUART_BUFFERED -DTARGET_IS_TM4C123_RB1-o .\rvmdk\led.o --omf_browse .\rvmdk\led.crf --depend .\rvmdk\led.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x62697C68)
+I (LED.h)(0x626AD615)
+I (../inc/tm4c123gh6pm.h)(0x5388D0EA)
+F (..\cc3100\simplelink\source\device.c)(0x53A3111E)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\ -I ..\..\..\.. -I ..\cc3100 -I ..\cc3100\platform\ek-tm4c123gxl -I ..\cc3100\simplelink\include -I ..\cc3100\simplelink\source --c99-I.\RTE\_getWeather-ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="535" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -D_POSIX_SOURCE -DUART_BUFFERED -DTARGET_IS_TM4C123_RB1-o .\rvmdk\device.o --omf_browse .\rvmdk\device.crf --depend .\rvmdk\device.d)
+I (..\cc3100\simplelink\source\datatypes.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\simplelink.h)(0x53A3111E)
+I (..\cc3100\platform\ek-tm4c123gxl\user.h)(0x53A3111E)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x6025F66E)
+I (..\cc3100\platform\ek-tm4c123gxl\board.h)(0x54F3DE90)
+I (..\cc3100\platform\ek-tm4c123gxl\spi.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/nonos.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/objInclusion.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\trace.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\fs.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\socket.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\netapp.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\device.h)(0x54F3DE90)
+I (..\cc3100\simplelink\include\netcfg.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan_rx_filters.h)(0x53A3111E)
+I (..\cc3100\simplelink\source\protocol.h)(0x53A3111E)
+I (..\cc3100\simplelink\source\flowcont.h)(0x53A3111E)
+I (..\cc3100\simplelink\source\driver.h)(0x53A3111E)
+F (..\cc3100\simplelink\source\driver.c)(0x53A3111E)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\ -I ..\..\..\.. -I ..\cc3100 -I ..\cc3100\platform\ek-tm4c123gxl -I ..\cc3100\simplelink\include -I ..\cc3100\simplelink\source --c99-I.\RTE\_getWeather-ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="535" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -D_POSIX_SOURCE -DUART_BUFFERED -DTARGET_IS_TM4C123_RB1-o .\rvmdk\driver.o --omf_browse .\rvmdk\driver.crf --depend .\rvmdk\driver.d)
+I (..\cc3100\simplelink\source\datatypes.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\simplelink.h)(0x53A3111E)
+I (..\cc3100\platform\ek-tm4c123gxl\user.h)(0x53A3111E)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x6025F66E)
+I (..\cc3100\platform\ek-tm4c123gxl\board.h)(0x54F3DE90)
+I (..\cc3100\platform\ek-tm4c123gxl\spi.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/nonos.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/objInclusion.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\trace.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\fs.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\socket.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\netapp.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\device.h)(0x54F3DE90)
+I (..\cc3100\simplelink\include\netcfg.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan_rx_filters.h)(0x53A3111E)
+I (..\cc3100\simplelink\source\protocol.h)(0x53A3111E)
+I (..\cc3100\simplelink\source\driver.h)(0x53A3111E)
+I (..\cc3100\simplelink\source\flowcont.h)(0x53A3111E)
+F (..\cc3100\simplelink\source\flowcont.c)(0x53A3111E)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\ -I ..\..\..\.. -I ..\cc3100 -I ..\cc3100\platform\ek-tm4c123gxl -I ..\cc3100\simplelink\include -I ..\cc3100\simplelink\source --c99-I.\RTE\_getWeather-ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="535" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -D_POSIX_SOURCE -DUART_BUFFERED -DTARGET_IS_TM4C123_RB1-o .\rvmdk\flowcont.o --omf_browse .\rvmdk\flowcont.crf --depend .\rvmdk\flowcont.d)
+I (..\cc3100\simplelink\source\datatypes.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\simplelink.h)(0x53A3111E)
+I (..\cc3100\platform\ek-tm4c123gxl\user.h)(0x53A3111E)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x6025F66E)
+I (..\cc3100\platform\ek-tm4c123gxl\board.h)(0x54F3DE90)
+I (..\cc3100\platform\ek-tm4c123gxl\spi.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/nonos.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/objInclusion.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\trace.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\fs.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\socket.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\netapp.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\device.h)(0x54F3DE90)
+I (..\cc3100\simplelink\include\netcfg.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan_rx_filters.h)(0x53A3111E)
+I (..\cc3100\simplelink\source\protocol.h)(0x53A3111E)
+I (..\cc3100\simplelink\source\driver.h)(0x53A3111E)
+I (..\cc3100\simplelink\source\flowcont.h)(0x53A3111E)
+F (..\cc3100\simplelink\source\fs.c)(0x53A3111E)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\ -I ..\..\..\.. -I ..\cc3100 -I ..\cc3100\platform\ek-tm4c123gxl -I ..\cc3100\simplelink\include -I ..\cc3100\simplelink\source --c99-I.\RTE\_getWeather-ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="535" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -D_POSIX_SOURCE -DUART_BUFFERED -DTARGET_IS_TM4C123_RB1-o .\rvmdk\fs.o --omf_browse .\rvmdk\fs.crf --depend .\rvmdk\fs.d)
+I (..\cc3100\simplelink\source\datatypes.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\simplelink.h)(0x53A3111E)
+I (..\cc3100\platform\ek-tm4c123gxl\user.h)(0x53A3111E)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x6025F66E)
+I (..\cc3100\platform\ek-tm4c123gxl\board.h)(0x54F3DE90)
+I (..\cc3100\platform\ek-tm4c123gxl\spi.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/nonos.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/objInclusion.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\trace.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\fs.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\socket.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\netapp.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\device.h)(0x54F3DE90)
+I (..\cc3100\simplelink\include\netcfg.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan_rx_filters.h)(0x53A3111E)
+I (..\cc3100\simplelink\source\protocol.h)(0x53A3111E)
+I (..\cc3100\simplelink\source\driver.h)(0x53A3111E)
+F (..\cc3100\simplelink\source\netapp.c)(0x53A3111E)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\ -I ..\..\..\.. -I ..\cc3100 -I ..\cc3100\platform\ek-tm4c123gxl -I ..\cc3100\simplelink\include -I ..\cc3100\simplelink\source --c99-I.\RTE\_getWeather-ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="535" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -D_POSIX_SOURCE -DUART_BUFFERED -DTARGET_IS_TM4C123_RB1-o .\rvmdk\netapp.o --omf_browse .\rvmdk\netapp.crf --depend .\rvmdk\netapp.d)
+I (..\cc3100\simplelink\source\datatypes.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\simplelink.h)(0x53A3111E)
+I (..\cc3100\platform\ek-tm4c123gxl\user.h)(0x53A3111E)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x6025F66E)
+I (..\cc3100\platform\ek-tm4c123gxl\board.h)(0x54F3DE90)
+I (..\cc3100\platform\ek-tm4c123gxl\spi.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/nonos.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/objInclusion.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\trace.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\fs.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\socket.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\netapp.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\device.h)(0x54F3DE90)
+I (..\cc3100\simplelink\include\netcfg.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan_rx_filters.h)(0x53A3111E)
+I (..\cc3100\simplelink\source\protocol.h)(0x53A3111E)
+I (..\cc3100\simplelink\source\driver.h)(0x53A3111E)
+F (..\cc3100\simplelink\source\netcfg.c)(0x53A3111E)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\ -I ..\..\..\.. -I ..\cc3100 -I ..\cc3100\platform\ek-tm4c123gxl -I ..\cc3100\simplelink\include -I ..\cc3100\simplelink\source --c99-I.\RTE\_getWeather-ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="535" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -D_POSIX_SOURCE -DUART_BUFFERED -DTARGET_IS_TM4C123_RB1-o .\rvmdk\netcfg.o --omf_browse .\rvmdk\netcfg.crf --depend .\rvmdk\netcfg.d)
+I (..\cc3100\simplelink\source\datatypes.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\simplelink.h)(0x53A3111E)
+I (..\cc3100\platform\ek-tm4c123gxl\user.h)(0x53A3111E)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x6025F66E)
+I (..\cc3100\platform\ek-tm4c123gxl\board.h)(0x54F3DE90)
+I (..\cc3100\platform\ek-tm4c123gxl\spi.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/nonos.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/objInclusion.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\trace.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\fs.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\socket.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\netapp.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\device.h)(0x54F3DE90)
+I (..\cc3100\simplelink\include\netcfg.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan_rx_filters.h)(0x53A3111E)
+I (..\cc3100\simplelink\source\protocol.h)(0x53A3111E)
+I (..\cc3100\simplelink\source\driver.h)(0x53A3111E)
+F (..\cc3100\simplelink\source\nonos.c)(0x53A3111E)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\ -I ..\..\..\.. -I ..\cc3100 -I ..\cc3100\platform\ek-tm4c123gxl -I ..\cc3100\simplelink\include -I ..\cc3100\simplelink\source --c99-I.\RTE\_getWeather-ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="535" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -D_POSIX_SOURCE -DUART_BUFFERED -DTARGET_IS_TM4C123_RB1-o .\rvmdk\nonos.o --omf_browse .\rvmdk\nonos.crf --depend .\rvmdk\nonos.d)
+I (..\cc3100\simplelink\source\datatypes.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\simplelink.h)(0x53A3111E)
+I (..\cc3100\platform\ek-tm4c123gxl\user.h)(0x53A3111E)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x6025F66E)
+I (..\cc3100\platform\ek-tm4c123gxl\board.h)(0x54F3DE90)
+I (..\cc3100\platform\ek-tm4c123gxl\spi.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/nonos.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/objInclusion.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\trace.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\fs.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\socket.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\netapp.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\device.h)(0x54F3DE90)
+I (..\cc3100\simplelink\include\netcfg.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan_rx_filters.h)(0x53A3111E)
+I (..\cc3100\simplelink\source\protocol.h)(0x53A3111E)
+I (..\cc3100\simplelink\source\driver.h)(0x53A3111E)
+F (..\cc3100\simplelink\source\socket.c)(0x53A3111E)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\ -I ..\..\..\.. -I ..\cc3100 -I ..\cc3100\platform\ek-tm4c123gxl -I ..\cc3100\simplelink\include -I ..\cc3100\simplelink\source --c99-I.\RTE\_getWeather-ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="535" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -D_POSIX_SOURCE -DUART_BUFFERED -DTARGET_IS_TM4C123_RB1-o .\rvmdk\socket.o --omf_browse .\rvmdk\socket.crf --depend .\rvmdk\socket.d)
+I (..\cc3100\simplelink\source\datatypes.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\simplelink.h)(0x53A3111E)
+I (..\cc3100\platform\ek-tm4c123gxl\user.h)(0x53A3111E)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x6025F66E)
+I (..\cc3100\platform\ek-tm4c123gxl\board.h)(0x54F3DE90)
+I (..\cc3100\platform\ek-tm4c123gxl\spi.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/nonos.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/objInclusion.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\trace.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\fs.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\socket.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\netapp.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\device.h)(0x54F3DE90)
+I (..\cc3100\simplelink\include\netcfg.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan_rx_filters.h)(0x53A3111E)
+I (..\cc3100\simplelink\source\protocol.h)(0x53A3111E)
+I (..\cc3100\simplelink\source\driver.h)(0x53A3111E)
+F (..\cc3100\simplelink\source\spawn.c)(0x53A3111E)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\ -I ..\..\..\.. -I ..\cc3100 -I ..\cc3100\platform\ek-tm4c123gxl -I ..\cc3100\simplelink\include -I ..\cc3100\simplelink\source --c99-I.\RTE\_getWeather-ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="535" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -D_POSIX_SOURCE -DUART_BUFFERED -DTARGET_IS_TM4C123_RB1-o .\rvmdk\spawn.o --omf_browse .\rvmdk\spawn.crf --depend .\rvmdk\spawn.d)
+I (..\cc3100\simplelink\source\datatypes.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\simplelink.h)(0x53A3111E)
+I (..\cc3100\platform\ek-tm4c123gxl\user.h)(0x53A3111E)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x6025F66E)
+I (..\cc3100\platform\ek-tm4c123gxl\board.h)(0x54F3DE90)
+I (..\cc3100\platform\ek-tm4c123gxl\spi.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/nonos.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/objInclusion.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\trace.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\fs.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\socket.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\netapp.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\device.h)(0x54F3DE90)
+I (..\cc3100\simplelink\include\netcfg.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan_rx_filters.h)(0x53A3111E)
+F (..\cc3100\platform\ek-tm4c123gxl\spi.c)(0x554C529E)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\ -I ..\..\..\.. -I ..\cc3100 -I ..\cc3100\platform\ek-tm4c123gxl -I ..\cc3100\simplelink\include -I ..\cc3100\simplelink\source --c99-I.\RTE\_getWeather-ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="535" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -D_POSIX_SOURCE -DUART_BUFFERED -DTARGET_IS_TM4C123_RB1-o .\rvmdk\spi.o --omf_browse .\rvmdk\spi.crf --depend .\rvmdk\spi.d)
+I (..\cc3100\simplelink\include\simplelink.h)(0x53A3111E)
+I (..\cc3100\platform\ek-tm4c123gxl\user.h)(0x53A3111E)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x6025F66E)
+I (..\cc3100\platform\ek-tm4c123gxl\board.h)(0x54F3DE90)
+I (..\cc3100\platform\ek-tm4c123gxl\spi.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/nonos.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/objInclusion.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/datatypes.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\trace.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\fs.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\socket.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\netapp.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\device.h)(0x54F3DE90)
+I (..\cc3100\simplelink\include\netcfg.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan_rx_filters.h)(0x53A3111E)
+I (..\inc/hw_memmap.h)(0x5388D0E8)
+I (..\inc/hw_ssi.h)(0x5388D0E8)
+I (..\inc/hw_gpio.h)(0x5388D0E8)
+I (..\inc/hw_types.h)(0x5388D0E8)
+I (..\driverlib/pin_map.h)(0x5388DEBA)
+I (..\inc/hw_ints.h)(0x5388D0E8)
+I (..\driverlib/ssi.h)(0x5388DEBA)
+I (..\driverlib/rom.h)(0x5388DEBA)
+I (..\driverlib/gpio.h)(0x5388DEBA)
+I (..\driverlib/sysctl.h)(0x5388DEBA)
+I (..\driverlib/interrupt.h)(0x5388DEBA)
+F (.\startup_rvmdk.S)(0x54909F08)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_getWeather-ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 535" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1" --pd "_RTE_ SETA 1"-o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d)
+F (..\cc3100\platform\ek-tm4c123gxl\uart.c)(0x53A3111E)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\ -I ..\..\..\.. -I ..\cc3100 -I ..\cc3100\platform\ek-tm4c123gxl -I ..\cc3100\simplelink\include -I ..\cc3100\simplelink\source --c99-I.\RTE\_getWeather-ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="535" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -D_POSIX_SOURCE -DUART_BUFFERED -DTARGET_IS_TM4C123_RB1-o .\rvmdk\uart.o --omf_browse .\rvmdk\uart.crf --depend .\rvmdk\uart.d)
+F (..\cc3100\simplelink\source\wlan.c)(0x53A3111E)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\ -I ..\..\..\.. -I ..\cc3100 -I ..\cc3100\platform\ek-tm4c123gxl -I ..\cc3100\simplelink\include -I ..\cc3100\simplelink\source --c99-I.\RTE\_getWeather-ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="535" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -D_POSIX_SOURCE -DUART_BUFFERED -DTARGET_IS_TM4C123_RB1-o .\rvmdk\wlan.o --omf_browse .\rvmdk\wlan.crf --depend .\rvmdk\wlan.d)
+I (..\cc3100\simplelink\source\datatypes.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\simplelink.h)(0x53A3111E)
+I (..\cc3100\platform\ek-tm4c123gxl\user.h)(0x53A3111E)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x6025F66E)
+I (..\cc3100\platform\ek-tm4c123gxl\board.h)(0x54F3DE90)
+I (..\cc3100\platform\ek-tm4c123gxl\spi.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/nonos.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/objInclusion.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\trace.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\fs.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\socket.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\netapp.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\device.h)(0x54F3DE90)
+I (..\cc3100\simplelink\include\netcfg.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan_rx_filters.h)(0x53A3111E)
+I (..\cc3100\simplelink\source\protocol.h)(0x53A3111E)
+I (..\cc3100\simplelink\source\driver.h)(0x53A3111E)
+F (..\utils\uartstdio.c)(0x54D87072)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\ -I ..\..\..\.. -I ..\cc3100 -I ..\cc3100\platform\ek-tm4c123gxl -I ..\cc3100\simplelink\include -I ..\cc3100\simplelink\source --c99-I.\RTE\_getWeather-ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="535" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -D_POSIX_SOURCE -DUART_BUFFERED -DTARGET_IS_TM4C123_RB1-o .\rvmdk\uartstdio.o --omf_browse .\rvmdk\uartstdio.crf --depend .\rvmdk\uartstdio.d)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x6025F66C)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x62697C68)
+I (D:\Keil5\ARM\ARMCC\include\stdarg.h)(0x6025F666)
+I (..\inc/hw_ints.h)(0x5388D0E8)
+I (..\inc/hw_memmap.h)(0x5388D0E8)
+I (..\inc/hw_types.h)(0x5388D0E8)
+I (..\inc/hw_uart.h)(0x5388D0E8)
+I (..\driverlib/debug.h)(0x5388DEBA)
+I (..\driverlib/interrupt.h)(0x5388DEBA)
+I (..\driverlib/rom.h)(0x5388DEBA)
+I (..\driverlib/rom_map.h)(0x5388DEBA)
+I (..\driverlib/sysctl.h)(0x5388DEBA)
+I (..\driverlib/uart.h)(0x5388DEBA)
+I (..\utils/uartstdio.h)(0x5388DF0C)
+F (..\utils\ustdlib.c)(0x5388DF0C)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\ -I ..\..\..\.. -I ..\cc3100 -I ..\cc3100\platform\ek-tm4c123gxl -I ..\cc3100\simplelink\include -I ..\cc3100\simplelink\source --c99-I.\RTE\_getWeather-ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="535" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -D_POSIX_SOURCE -DUART_BUFFERED -DTARGET_IS_TM4C123_RB1-o .\rvmdk\ustdlib.o --omf_browse .\rvmdk\ustdlib.crf --depend .\rvmdk\ustdlib.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x62697C68)
+I (..\driverlib/debug.h)(0x5388DEBA)
+I (..\utils/ustdlib.h)(0x5388DF0C)
+I (D:\Keil5\ARM\ARMCC\include\stdarg.h)(0x6025F666)
+I (D:\Keil5\ARM\ARMCC\include\time.h)(0x6025F668)
+F (.\main.c)(0x62782052)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\ -I ..\..\..\.. -I ..\cc3100 -I ..\cc3100\platform\ek-tm4c123gxl -I ..\cc3100\simplelink\include -I ..\cc3100\simplelink\source --c99-I.\RTE\_getWeather-ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="535" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -D_POSIX_SOURCE -DUART_BUFFERED -DTARGET_IS_TM4C123_RB1-o .\rvmdk\main.o --omf_browse .\rvmdk\main.crf --depend .\rvmdk\main.d)
+I (ST7735.h)(0x62697BC9)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x62697C68)
+I (animations.h)(0x626AE111)
+I (..\cc3100\simplelink\include\simplelink.h)(0x53A3111E)
+I (..\cc3100\platform\ek-tm4c123gxl\user.h)(0x53A3111E)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x6025F66E)
+I (..\cc3100\platform\ek-tm4c123gxl\board.h)(0x54F3DE90)
+I (..\cc3100\platform\ek-tm4c123gxl\spi.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/nonos.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/objInclusion.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\../source/datatypes.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\trace.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\fs.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\socket.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\netapp.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\device.h)(0x54F3DE90)
+I (..\cc3100\simplelink\include\netcfg.h)(0x53A3111E)
+I (..\cc3100\simplelink\include\wlan_rx_filters.h)(0x53A3111E)
+I (..\inc/hw_memmap.h)(0x5388D0E8)
+I (..\inc/hw_types.h)(0x5388D0E8)
+I (..\driverlib/debug.h)(0x5388DEBA)
+I (..\driverlib/fpu.h)(0x5388DEBA)
+I (..\driverlib/gpio.h)(0x5388DEBA)
+I (..\driverlib/pin_map.h)(0x5388DEBA)
+I (..\driverlib/rom.h)(0x5388DEBA)
+I (..\driverlib/sysctl.h)(0x5388DEBA)
+I (..\driverlib/uart.h)(0x5388DEBA)
+I (..\utils/uartstdio.h)(0x5388DF0C)
+I (D:\Keil5\ARM\ARMCC\include\stdarg.h)(0x6025F666)
+I (..\utils/cmdline.h)(0x5388DF0C)
+I (application_commands.h)(0x54909F08)
+I (LED.h)(0x626AD615)
+F (.\ST7735.c)(0x62697BC3)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\ -I ..\..\..\.. -I ..\cc3100 -I ..\cc3100\platform\ek-tm4c123gxl -I ..\cc3100\simplelink\include -I ..\cc3100\simplelink\source --c99-I.\RTE\_getWeather-ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="535" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -D_POSIX_SOURCE -DUART_BUFFERED -DTARGET_IS_TM4C123_RB1-o .\rvmdk\st7735.o --omf_browse .\rvmdk\st7735.crf --depend .\rvmdk\st7735.d)
+I (ST7735.h)(0x62697BC9)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x62697C68)
+I (../inc/tm4c123gh6pm.h)(0x5388D0EA)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x6025F664)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x6025F664)
+I (D:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\tm4c123gh6pm.h)(0x551060BC)
+I (D:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D4BBD2)
+I (D:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D4BBD2)
+I (D:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D4BBD2)
+I (D:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D4BBD2)
+I (D:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D4BBD2)
+I (D:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B76296)
+F (.\ST7735.h)(0x62697BC9)()
+F (.\animations.c)(0x626AE3ED)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\ -I ..\..\..\.. -I ..\cc3100 -I ..\cc3100\platform\ek-tm4c123gxl -I ..\cc3100\simplelink\include -I ..\cc3100\simplelink\source --c99-I.\RTE\_getWeather-ID:\Keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="535" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM -D_POSIX_SOURCE -DUART_BUFFERED -DTARGET_IS_TM4C123_RB1-o .\rvmdk\animations.o --omf_browse .\rvmdk\animations.crf --depend .\rvmdk\animations.d)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x6025F664)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x62697C68)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x6025F664)
+I (animations.h)(0x626AE111)
+I (ST7735.h)(0x62697BC9)
+F (.\animations.h)(0x626AE111)()
+F (.\LED.h)(0x626AD615)()
+F (..\driverlib\rvmdk\driverlib.lib)(0x5388DEBA)()
+F (.\readme.txt)(0x55F588EA)()
